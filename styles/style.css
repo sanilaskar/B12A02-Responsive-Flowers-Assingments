@@ -22,5 +22,68 @@ img {
 
 /* nav-section */
 .nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 120px;
+}
+.nav-icon ul{
+    /* align-items: center; */
+    gap: 45px;
+}
+nav ul li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.banner-left{
+    flex: 1;
     
+    /* padding-bottom: 0px; */
+}
+.banner-left h2{
+    margin-bottom: 13px;
+}
+.banner-right {
+  flex: 1;
+}
+.banner-right img {
+  display: block;
+  /* animation: banner-player-animation 1s ease-in infinite; */
+}
+
+/* our-plants-section */
+.plants{
+    display: grid;
+    gap: 50px;
+}
+.plants-left{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.btn-cart{
+    padding: 20px 80px;
+    height: 50px;
+    width: 270px;
+    font-weight: 500;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+
+}
+
+.plants-right{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
 }
