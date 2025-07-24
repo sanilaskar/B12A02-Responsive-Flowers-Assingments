@@ -113,38 +113,67 @@ nav li a{
 /* flower lover and badge section */
 .flower-lover{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
     gap: auto;
     margin-bottom: 135px;
+   
 
 }
+
+
 .flower-lover-left{
-    padding: 38px 60px;
-    padding-right: 0px;
+    padding: 38px 0px 0px 60px;
+    /* padding-right: 0px; */
 }
 .flower-lover-left h3{
     font-weight: 700;
     font-size: 3.1rem;
 }
+.badge{
+  position: relative;
+  display: inline-block;
+}
+.trusted-badge{
+    /* margin-bottom:-100px ;
+    margin-right: -600px; */
+    width: 286px;
+    height: 286px;
+    /* display: inline-block; */
+    position: absolute;
+    margin-top: -100px;
+    /* margin-bottom: ; */
+    /* margin-left: -200px; */
+    margin-left: 370px;
+    /* bottom: -8px;
+    left: -12px; */
+}
 .flower-img {
     
     /* max-width: 50%; */
-    display: block;
+    display:block;
     width: 1140px;
     height: 600px;
+    
     /* flex-direction: column; */
     /* flex: 1; */
 }
-.flower-lover-left ul {
+
+.flower-lover-left li {
     padding-left: 30px;
+    /* list-style: circle; */
    
 }
-.flower-lover-left ul p{
+.flower-lover-left  p{
     font-size: 22px;
-    margin: 20px 0px;
+    margin-top: 20px;
+    line-height: normal;
+    /* margin-bottom: 38px; */
    
     
     
-    flex: 1;
+    /* flex: 1; */
     /* padding-left: 25px; */
     /* max-width: 50%; */
 }
@@ -206,8 +235,23 @@ nav li a{
     /* padding-left:  */
 }
 /* footerrrrrrrrr */
+.parent-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .parent-card{
-    gap: 20px;
+    gap: 80px;
+    /* justify-content: space-between; */
+}
+.card-left ul li{
+    margin-bottom: 30px; 
+}
+.card-right ul li{
+    margin-bottom: 30px;
 }
 
 
