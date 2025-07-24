@@ -64,6 +64,7 @@ nav li a{
 .plants{
     display: grid;
     gap: 50px;
+    margin-bottom: 210px;
 }
 .plants-left{
     justify-content: center;
@@ -86,4 +87,43 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 30px;
+}
+
+/* flower lover and badge section */
+.flower-lover{
+    display: flex;
+    gap: auto;
+    margin-bottom: 135px;
+
+}
+.flower-lover-left{
+    padding: 38px 60px;
+    padding-right: 0px;
+}
+.flower-lover-left h3{
+    font-weight: 700;
+    font-size: 3.1rem;
+}
+.flower-img {
+    
+    /* max-width: 50%; */
+    display: block;
+    width: 1140px;
+    height: 600px;
+    /* flex-direction: column; */
+    /* flex: 1; */
+}
+.flower-lover-left ul {
+    padding-left: 30px;
+   
+}
+.flower-lover-left ul p{
+    font-size: 22px;
+    margin: 20px 0px;
+   
+    
+    
+    flex: 1;
+    /* padding-left: 25px; */
+    /* max-width: 50%; */
 }
