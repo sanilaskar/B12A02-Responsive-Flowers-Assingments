@@ -6,6 +6,10 @@
     margin: 0;
     font-family: "Noto Serif", serif;
 }
+p {
+ font-family: "Inter", sans-serif;
+ color: rgba(0, 0, 0, 0.5);
+}
 img {
   max-width: 100%;
 }
@@ -19,8 +23,22 @@ img {
 .flex{
     display: flex;
 }
+.pr-text-clr{
+    color:#E95A08;
+}
+.primary-clr{
+    color: #8987A1;
+}
 
 /* nav-section */
+
+/* .cart{
+    padding-right: 10px;
+} */
+ .logo{
+    width: 135px;
+    height: 80px;
+ }
 .nav-bar{
     justify-content: space-between;
     align-items: center;
@@ -33,6 +51,7 @@ img {
 }
 nav ul li {
     list-style: none;
+    
 }
 nav li a{
     text-decoration: none;
@@ -51,6 +70,8 @@ nav li a{
 }
 .banner-left h2{
     margin-bottom: 13px;
+    font-weight: 700;
+    font-size:65px ;
 }
 .banner-right {
   flex: 1;
@@ -127,3 +148,96 @@ nav li a{
     /* padding-left: 25px; */
     /* max-width: 50%; */
 }
+
+/* latest-deals section */
+.latest-deals{
+    text-align: center;
+    margin-bottom: 150px;
+    
+}
+.latest-deals h3{
+    font-weight: 700;
+    font-size: 3.1rem;
+    margin-bottom: 16px;
+}
+.latest-deals p{
+    font-size: 1.38rem;
+}
+
+/* join-bunch */
+.join{
+    background-image:url(../assets/news-letter-bg.png) ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+
+.join-inner{
+    text-align: center;
+    
+}
+.join h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.1rem;
+    color: white;
+    margin-bottom: 16px;
+}
+.join-inner input{
+    width: 600px;
+    height: 50px;
+    background-color: white;
+    border: none;
+}
+.join-inner input ::placeholder{
+    font-family: "Inter", sans-serif;
+}
+
+.sub-btn{
+    width: 186px;
+    height: 50px;
+    /* padding-left:  */
+}
+/* footerrrrrrrrr */
+.parent-card{
+    gap: 20px;
+}
+
+
+
+
+/* media-query--------mobile-576 */ 
+/* @media (max-width: 576px) {
+    
+    .container{
+        max-width: 360px;
+        margin: auto; 
+    }
+  .nav-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-icon ul li:not(:last-child) {
+    display: none; /* Hide everything except the cart */
+  /* } */
+  /* .logo img {
+    height: 40px;
+    margin-top: 10px;
+    /* padding-top: 10px; */
+    /* flex-direction: column; */
+  /* } */ 
+
+  /* .cart {
+    font-size: 14px;
+  }
+   */
+
+/* } */

@@ -9,28 +9,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- font-awesome-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body>
     <!-- Nav -->
     <header>
 
         <nav class="flex nav-bar container">
-            <div>
+            <div class="logo">
                 <img src="assets/logo.png" alt="">
             </div>
             <div class="nav-icon">
                 <ul class="flex">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Cart($156)</a></li>
+                    <li><a href="#" class="font-bold">Home</a></li>
+                    <li><a href="#" class="primary-clr">Shop</a></li>
+                    <li><a href="#" class="primary-clr">About us</a></li>
+                    
+                    <li><a href="#" ><i class="fa-solid fa-cart-shopping"></i>    Cart ($156)</a></li>
                 </ul>
             </div>
             </nav>
             <!-- banner-section-in-header -->
             <section class="banner container">
             <div class="banner-left">
-                <h2>ALWAYS FRESH <br> FLOWERS</h2>
+                <h2>ALWAYS <span class="pr-text-clr">FRESH <br> FLOWERS</span></h2>
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
 
@@ -42,7 +50,7 @@
         <main>
             <section class="plants container">
                 <div class="plants-left">
-                    <h3>Our Plants</h3>
+                    <h3><span class="pr-text-clr">Our</span> Plants</h3>
                     <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> roses to exotic blooms, we offer a wide variety of fresh.</p>
                 </div>
                 <div class="plants-right">
@@ -134,7 +142,59 @@
                     </ul>
                 </div>
             </section>
+            <!-- latest deals -->
+             <section class="latest-deals container">
+                <!-- <div class=""> -->
+                    <h3><span class="pr-text-clr">Latest</span>  Deals</h3>
+                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <!-- </div> -->
+             </section>
+             <!-- join-bunch -->
+              <section class="join">
+                <div>
+                    <h2>Join the colorful Bunch</h2>
+                <div class="join-inner">
+                    <input type="email" placeholder="write email">
+                    <button class="sub-btn">Subscribe</button>
+                </div>
+                </div>
+                
+              </section>
         </main>
+        <footer>
+           <section class="container">
+            <div>
+                <img src="assets/logo.png" alt="">
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div class="parent-card flex">
+                <div class="card-left">
+                <ul >
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >About us</a></li>
+                    <li><a href="#" >Blog</a></li>
+                    <li><a href="#" >FAQ</a></li>
+                    <li><a href="#" >Contact us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="card-right">
+                <ul >
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >About us</a></li>
+                    <li><a href="#" >Blog</a></li>
+                    <li><a href="#" >FAQ</a></li>
+                    <li><a href="#" >Contact us</a></li>
+                    
+                </ul>
+            </div>
+            </div>
+            <div>
+
+            </div>
+           </section>
+            
+        </footer>
     </header>
 </body>
 </html>
