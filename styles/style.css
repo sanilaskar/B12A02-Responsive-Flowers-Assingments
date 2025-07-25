@@ -10,7 +10,9 @@ p {
  font-family: "Inter", sans-serif;
  color: rgba(0, 0, 0, 0.5);
  line-height: normal;
+ font-size: 1.38rem;
 }
+
 img {
   max-width: 100%;
 }
@@ -109,7 +111,7 @@ nav li a{
     text-align: center;
     
 }
-.plants-left h3{
+.plants-left h2{
     font-weight: 700;
     font-size: 3.1rem;
 }
@@ -292,15 +294,16 @@ nav li a{
 }
 /* footerrrrrrrrr */
 .parent-footer{
+    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     
-    gap: 80px;
+    gap: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .parent-card{
-    gap: 80px;
+    gap: 100px;
     /* justify-content: space-between; */
 }
 .card-left ul li{
@@ -308,6 +311,21 @@ nav li a{
 }
 .card-right ul li{
     margin-bottom: 30px;
+}
+.lft-logo{
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.lft-logo p{
+    
+    width: 359px;
+    height: 179px;
+}
+.footer-social i{
+    width: 36px;
+    height: 36px;
+    
 }
 
 
@@ -468,6 +486,24 @@ nav li a{
 
 .sub-btn{
     width: 103px;
+    }
+    /* foter */
+    .parent-footer{
+        max-width: 360px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: auto;
+    }
+    .parent-card{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 10px;
+        margin-bottom: -100px;
+    }
+    .footer-social{
+        /* margin-top: -30px; */
+        
     }
 }
 
