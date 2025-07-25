@@ -12,6 +12,9 @@ p {
  line-height: normal;
  font-size: 1.38rem;
 }
+a{
+    font-family: "Inter", sans-serif;
+}
 
 img {
   max-width: 100%;
@@ -232,7 +235,7 @@ nav li a{
 /* latest-deals section */
 .latest-deals{
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     
 }
 .latest-deals h3{
@@ -242,6 +245,67 @@ nav li a{
 }
 .latest-deals p{
     font-size: 1.38rem;
+}
+
+/* nature-pic-section */
+
+/* hhhhhhhhhhhhhhhhh */
+    .deals-section {
+  /* background-color: #f6f9fe; */
+  
+  padding: 40px 20px;
+  font-family: 'Noto Serif', serif;
+}
+
+.deals-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.deal-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal-content {
+  text-align: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  padding: 15px;
+  border-radius: 22px;
+}
+
+.deal-content h3 {
+  /* font-size: 20px; */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.deal-content a {
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.right-deal {
+  flex: 2;
+  min-height: 420px;
 }
 
 /* join-bunch */
@@ -327,6 +391,9 @@ nav li a{
     height: 36px;
     
 }
+
+
+
 
 
 
@@ -459,6 +526,7 @@ nav li a{
     /* latest deals */
     .latest-deals{
         max-width: 360px;
+       
     }
     .latest-deals h3{
         font-size: 24px;
@@ -466,6 +534,8 @@ nav li a{
     .latest-deals p{
         font-size: 14px;
     }
+    
+
     /* join-section */
     .join{
         /* max-width: 100%; */
@@ -505,7 +575,29 @@ nav li a{
         /* margin-top: -30px; */
         
     }
+    /* nature-pic */
+    
+    .deals-container {
+    max-width: 360px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin-top: -80px;
+    
+  }
+
+  .right-deal {
+    min-height: 200px;
+   } 
+
+  .deal-content h3 {
+    font-size: 20px;
+  }
+  .deal-content a{
+    font-size: 16px;
+  }
 }
+
 
 
 
