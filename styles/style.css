@@ -94,7 +94,7 @@ nav li a{
 .banner-right img {
   display: block;
   width: 570px;
-  height: 355px;
+  height: 355px; 
  
 }
 
@@ -204,16 +204,20 @@ nav li a{
     /* flex-direction: column; */
     /* flex: 1; */
 }
+.flower-lover-left ul{
+    padding-left: 30px;
+}
 
 .flower-lover-left li {
-    padding-left: 30px;
-    /* list-style: circle; */
+    /* padding-left: 30px; */
+    list-style: disc;
    
 }
 .flower-lover-left  p{
     font-size: 22px;
     margin-top: 20px;
     line-height: normal;
+    /* margin-left: -5px; */
     /* margin-bottom: 38px; */
    
     
@@ -310,6 +314,165 @@ nav li a{
 
 
 /* media-query--------mobile-576 */ 
+
+@media (max-width: 576px){
+     /* .container{
+        max-width: 360px;
+        margin: auto; 
+    } */
+     /* shared */
+     * p{
+        font-size: 14px;
+     }
+     h2{
+        font-size: 10px;
+     }
+    .nav-bar{
+        
+        max-width: 360px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+        /* padding-left: 10px; */
+    }
+    .logo{
+        width: 110px;
+        height: 25px;
+    }
+    .nav-icon{
+        padding-top: 70px;
+    }
+
+    .nav-icon ul li:not(:last-child){
+        display: none;
+    }
+
+    /* banner */
+    .banner {
+        
+         
+    flex-direction: column-reverse;
+    /* padding: 30px 20px; */
+    text-align: left;
+  
+    }
+     .banner-right img{
+        /* width: 100%; */
+        height: 245px;
+    }
+    .banner-left{
+        max-width: 360px;
+        margin-top: 28px;
+        
+        /* padding-left: 10px; */
+    }
+    .banner-left h2{
+        font-size: 24px;
+    }
+    .banner-left p{
+        font-size: 14px;
+    }
+    /* plants */
+    .plants{
+        max-width:  360px;
+        margin-top: 65px;
+        
+    }
+    .plants-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+    margin-bottom: -100px;
+    
+    }
+    
+    .plants-left h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .plants-left p{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .plants-card{
+        width: 171px;
+        height: 340px;
+        margin-bottom: 40px;
+        
+        
+    }
+    .btn-cart{
+        width: 171px;
+        height: 50px;
+        
+        
+    }
+    /* lover */
+    .flower-lover{
+        max-width: 360px;
+        height: 648px;
+        display: flex;
+        flex-direction: column;
+        /* gap: 18px; */
+        padding-top: 0px;
+        margin-top: 5px;
+    }
+    .badge{
+        display: none;
+    }
+    .flower-img{
+        width: 100%;
+    }
+    .flower-lover-left{
+        /* text-align: start;
+        width: 360px;
+        height: 234px; */
+        padding-left: 5px;
+    }
+    .flower-lover-left h3{
+        font-size: 24px;
+    }
+    .flower-lover-left ul p{
+        font-size: 14px;
+    }
+    /* latest deals */
+    .latest-deals{
+        max-width: 360px;
+    }
+    .latest-deals h3{
+        font-size: 24px;
+    }
+    .latest-deals p{
+        font-size: 14px;
+    }
+    /* join-section */
+    .join{
+        /* max-width: 100%; */
+        /* background-repeat: no-repeat; */
+        width: 100%;
+        height: 275px;
+        /* background-position: center; */
+        /* background-size: cover;  */
+    }
+    .join h2{
+    
+    font-size: 20px;
+    }
+    .join-inner input{
+    width: 218px;
+    /* padding-left:20px ; */
+}
+
+.sub-btn{
+    width: 103px;
+    }
+}
+
+
+
 /* @media (max-width: 576px) {
     
     .container{
