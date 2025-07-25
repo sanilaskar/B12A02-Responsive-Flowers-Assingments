@@ -24,6 +24,10 @@ img {
   margin: auto;
 }
 
+.bg{
+    background-color: #f6f9fe; 
+}
+
 
 /* shared style */
 .flex{
@@ -249,10 +253,7 @@ nav li a{
 
 /* nature-pic-section */
 
-/* hhhhhhhhhhhhhhhhh */
-    .deals-section {
-  /* background-color: #f6f9fe; */
-  
+.deals-section {
   padding: 40px 20px;
   font-family: 'Noto Serif', serif;
 }
@@ -286,13 +287,12 @@ nav li a{
   text-align: center;
   color: white;
   font-family: 'Inter', sans-serif;
-  /* background-color: rgba(0, 0, 0, 0.3); */
   padding: 15px;
   border-radius: 22px;
 }
 
 .deal-content h3 {
-  /* font-size: 20px; */
+
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -401,10 +401,7 @@ nav li a{
 /* media-query--------mobile-576 */ 
 
 @media (max-width: 576px){
-     /* .container{
-        max-width: 360px;
-        margin: auto; 
-    } */
+     
      /* shared */
      * p{
         font-size: 14px;
@@ -413,7 +410,6 @@ nav li a{
         font-size: 10px;
      }
     .nav-bar{
-        
         max-width: 360px;
         display: flex;
         justify-content: space-between;
@@ -435,17 +431,12 @@ nav li a{
 
     /* banner */
     .banner {
-        
-         
-    flex-direction: column-reverse;
-    /* padding: 30px 20px; */
-    text-align: left;
-  
-    }
+        flex-direction: column-reverse;
+        text-align: left;
+        }
      .banner-right img{
-        /* width: 100%; */
         height: 245px;
-    }
+        }
     .banner-left{
         max-width: 360px;
         margin-top: 28px;
@@ -458,6 +449,7 @@ nav li a{
     .banner-left p{
         font-size: 14px;
     }
+
     /* plants */
     .plants{
         max-width:  360px;
@@ -468,7 +460,6 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    
     margin-bottom: -100px;
     
     }
@@ -546,16 +537,15 @@ nav li a{
         /* background-size: cover;  */
     }
     .join h2{
-    
     font-size: 20px;
     }
     .join-inner input{
-    width: 218px;
+        width: 218px;
     /* padding-left:20px ; */
-}
+    }
 
-.sub-btn{
-    width: 103px;
+    .sub-btn{
+        width: 103px;
     }
     /* foter */
     .parent-footer{
@@ -568,63 +558,39 @@ nav li a{
         display: flex;
         flex-direction: column;
         gap: 5px;
-        margin-top: 10px;
-        margin-bottom: -100px;
+        /* margin-top: 0px; */
+        margin-bottom: -80px;
     }
-    .footer-social{
-        /* margin-top: -30px; */
-        
+    .logo-ftr{
+        width:180px ;
+        height: 109px;
     }
+    
     /* nature-pic */
     
     .deals-container {
     max-width: 360px;
     flex-direction: column;
     gap: 20px;
-    padding: 10px;
+    /* padding: 10px; */
     margin-top: -80px;
-    
-  }
+    }
+    .deal-card {
+    width: 360px;
+    min-height: 184px;
+    }
+    .right-deal {
+     width: 360px;
+    min-height: 172px;
+    } 
 
-  .right-deal {
-    min-height: 200px;
-   } 
-
-  .deal-content h3 {
+    .deal-content h3 {
     font-size: 20px;
-  }
-  .deal-content a{
+    }
+    .deal-content a{
     font-size: 16px;
-  }
+    }
 }
 
 
 
-
-/* @media (max-width: 576px) {
-    
-    .container{
-        max-width: 360px;
-        margin: auto; 
-    }
-  .nav-bar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .nav-icon ul li:not(:last-child) {
-    display: none; /* Hide everything except the cart */
-  /* } */
-  /* .logo img {
-    height: 40px;
-    margin-top: 10px;
-    /* padding-top: 10px; */
-    /* flex-direction: column; */
-  /* } */ 
-
-  /* .cart {
-    font-size: 14px;
-  }
-   */
-
-/* } */
